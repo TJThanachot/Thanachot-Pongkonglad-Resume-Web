@@ -1,15 +1,21 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
 import "./App.css";
+import Header from "./component/Header";
+import Footer from "./component/Footer";
+import Body from "./component/Body";
+import { thanachot } from "./assets/thanachotData";
+
+export const thanachotDataContext = React.createContext();
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <h1 className="text-3xl font-bold underline text-orange-500">
-      Hello world!
-    </h1>
+    <div className="p-0 m-0 text-gray-800">
+      <thanachotDataContext.Provider value={thanachot}>
+        <Header />
+        <Body />
+        <Footer />
+      </thanachotDataContext.Provider>
+    </div>
   );
 }
 
