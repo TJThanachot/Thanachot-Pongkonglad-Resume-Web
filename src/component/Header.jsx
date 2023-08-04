@@ -17,7 +17,7 @@ function Header() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <div className=" text-yellow-400 text-[2.5rem] flex gap-[5%] items-center max-sm:flex-col">
+      <div className="w-[55%] text-yellow-400 text-[2.5rem] flex gap-[5%] items-center max-sm:flex-col">
         {context.name}
         <div className="text-[#0ae0ff] text-[4rem]">{context.nickName}</div>
         {context.lastName}
