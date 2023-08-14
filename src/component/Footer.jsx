@@ -1,9 +1,12 @@
+import { FiLink } from "react-icons/fi";
 function Footer() {
   return (
     <div
       className=" bg-gradient-to-r from-gray-500 to-gray-700 min-h-[9rem] 
      flex items-center justify-around max-sm:flex-col"
     >
+      {/* iconsLeft */}
+
       <div className="flex flex-wrap ">
         <img
           className="logo react"
@@ -26,13 +29,26 @@ function Footer() {
           alt="internet"
         />
       </div>
+
+      {/* middleContent */}
+
       <div className="flex flex-col items-center max-sm:order-first max-sm:m-4 ">
         <span className="text-[#0ae0ff] text-3xl">
           © Copyright 2023 | TJThanachot
         </span>
         <br />
-        <span className=" text-yellow-400">https://github.com/TJThanachot</span>
+        <a
+          href="https://github.com/TJThanachot"
+          target="_blank"
+          className=" text-yellow-400 flex items-center gap-2"
+        >
+          https://github.com/TJThanachot
+          <FiLink className="text-yellow-400 text-xl" />
+        </a>
       </div>
+
+      {/* iconsRight */}
+
       <div className="flex flex-wrap">
         <img
           className="logo react"

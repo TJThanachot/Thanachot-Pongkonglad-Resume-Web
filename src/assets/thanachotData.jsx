@@ -5,7 +5,7 @@ export const thanachot = {
   age: 27,
   dateOfbirth: "14 May 1996 ",
   contact: {
-    tel: "093-7131632",
+    tel: "093-713-1632",
     email: "Thanachot.pongkonglad@gmail.com",
     line: "onon4748",
     whatApp: "+66 93 713 1632",
@@ -29,17 +29,32 @@ export const thanachot = {
     "Asking for help",
     "Teamwork",
   ],
+  project: [
+    {
+      projectName: "Resume-Web",
+      link: "https://github.com/TJThanachot/Thanachot-Pongkonglad-Resume-Web",
+    },
+    {
+      projectName: "Product-preview-card",
+      link: "https://github.com/TJThanachot/product-preview-card",
+    },
+    {
+      projectName: "Todo-List-Java-App",
+      link: "https://github.com/TJThanachot/todoListJavaApp",
+    },
+  ],
   skill: [
     "Html",
     "Css",
     "Javascript",
     "React.JS",
-    "Express.JS",
     "Node.JS",
+    "Express.JS",
     "Git/Github",
     "Tailwind",
     "MongDB",
     "PostgreSQL",
+    "JAVA",
     "Auto Click",
   ],
   experience: [
@@ -64,10 +79,7 @@ export const thanachot = {
       ],
     },
   ],
-  trainingCourses: [
-    "Full-Stack Software Developer - TechUp Jun 2023",
-    "Thai Professional Cookery - MSC Aug 2022",
-  ],
+
   personal: [
     {
       qualifications:
