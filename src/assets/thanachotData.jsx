@@ -38,10 +38,6 @@ export const thanachot = {
       projectName: "Product-preview-card",
       link: "https://github.com/TJThanachot/product-preview-card",
     },
-    {
-      projectName: "Todo-List-Java-App",
-      link: "https://github.com/TJThanachot/todoListJavaApp",
-    },
   ],
   skill: [
     "Html",
