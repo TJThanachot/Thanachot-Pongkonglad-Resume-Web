@@ -31,12 +31,28 @@ export const thanachot = {
   ],
   project: [
     {
-      projectName: "Resume-Web",
-      link: "https://github.com/TJThanachot/Thanachot-Pongkonglad-Resume-Web",
+      projectName: "resume-Web",
+      link: "https://github.com/TJThanachot/resume-Web",
     },
     {
-      projectName: "Product-preview-card",
-      link: "https://github.com/TJThanachot/product-preview-card",
+      projectName: "todo-web-app",
+      link: "https://github.com/TJThanachot/todoReactApp",
+    },
+    {
+      projectName: "petsitter",
+      link: "https://github.com/nathkit/petsitter",
+    },
+    {
+      projectName: "blogs-posts-web-app",
+      link: "https://github.com/TJThanachot/blogs-posts-web-app",
+    },
+    {
+      projectName: "E-commerce-web-app",
+      link: "https://github.com/TJThanachot/E-commerce-web-app",
+    },
+    {
+      projectName: "tip-calculator-app",
+      link: "https://github.com/TJThanachot/tip-calculator-app",
     },
   ],
   skill: [
